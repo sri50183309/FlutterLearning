@@ -80,6 +80,50 @@ class MyCard extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     fontFamily: 'SourceSansPro',
                     letterSpacing: 2.5),
+              ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      '+1 248 631 6596',
+                      style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: 'SourceSansPro',
+                          fontSize: 20.0),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      'sriram.mahalingam@gmail.com',
+                      style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: 'SourceSansPro',
+                          fontSize: 20.0),
+                    )
+                  ],
+                ),
               )
             ],
           ),
